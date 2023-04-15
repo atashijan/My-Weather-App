@@ -50,6 +50,10 @@ function displayWeather(response) {
   console.log(response.data);
   document.querySelector("h1").innerHTML = response.data.name;
   document.querySelector("h2").innerHTML = Math.round(response.data.main.temp);
+  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed * 3.6
+  );
 }
 
 function search(event) {
