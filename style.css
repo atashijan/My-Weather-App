@@ -50,6 +50,7 @@ h2 {
 #current-date {
   color: rgb(125, 163, 217);
   font-size: 12px;
+  list-style: none;
   float: right;
   position: relative;
   bottom: 76px;
