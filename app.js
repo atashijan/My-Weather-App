@@ -50,8 +50,9 @@ function displayWeather(response) {
   console.log(response.data);
   document.querySelector("h1").innerHTML = response.data.name;
 
-  let celsiusTemp = document.querySelector("h2");
-  celsiusTemp.innerHTML = Math.round(response.data.main.temp);
+  let temperature = document.querySelector("#temperature");
+  celsiusTemperature = response.data.main.temp;
+  temperature.innerHTML = Math.round(celsiusTemperature);
 
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
