@@ -47,13 +47,19 @@ if (minutes < 10) {
 currentTime.innerHTML = `${hours}:${minutes}`;
 
 function displayWeather(response) {
+  console.log(response.data);
   document.querySelector("h1").innerHTML = response.data.name;
-  document.querySelector("h2").innerHTML = Math.round(response.data.main.temp);
+
+  let celsiusTemp = document.querySelector("h2");
+  celsiusTemp.innerHTML = Math.round(response.data.main.temp);
+
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed * 3.6
   );
 
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.weather[0].description;
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
     "src",

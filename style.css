@@ -41,9 +41,9 @@ h2 {
   color: rgb(107, 104, 126);
   list-style: none;
   position: relative;
-  top: -110px;
-
-  left: 29px;
+  top: -100px;
+  margin: 20px auto;
+  left: 75px;
   font-weight: 200;
 }
 
@@ -57,16 +57,15 @@ h2 {
   right: 49px;
 }
 
-img {
+#icon {
   position: relative;
-  top: -79px;
-  left: 275px;
+  top: -60px;
+  left: 250px;
+  margin: auto;
 }
-#weather-discription {
+#description {
   font-weight: 400;
-  position: relative;
+
   font-size: 18px;
   color: rgb(107, 104, 126);
-  top: 3px;
-  right: 189px;
 }

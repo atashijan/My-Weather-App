@@ -27,7 +27,7 @@
         <div class="weather-app-border">
           <form id="search-form">
             <input
-              type="text"
+              type="search"
               placeholder="Search for a city"
               autocomplete="off"
               autofocus="on"
@@ -44,17 +44,22 @@
             <li><span id="time"> </span></li>
           </ul>
 
-          <h2 id="temp-output">53°</h2>
+          <h2 id="temp-output">53<span id="temp-degree"></span>°</h2>
 
-          <div id="weather-description">
+          <div id="weather-display">
             <div class="row">
               <div class="col-6">
-                <img src="" alt="Clear" id="icon" />
+                <img
+                  src="http://openweathermap.org/img/wn/04d@2x.png"
+                  alt="Clear"
+                  id="icon"
+                />
               </div>
             </div>
           </div>
-          
+
           <ul id="current-weather">
+            <li><span id="description">Clear</span></li>
             <li>Wind: <span id="wind"> </span>km/h</li>
             <li>Humidity: <span id="humidity"></span>%</li>
           </ul>
