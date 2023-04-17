@@ -14,6 +14,9 @@ h1 {
   font-size: 54px;
 }
 
+small {
+}
+
 #temperature {
   text-align: center;
 
@@ -34,6 +37,7 @@ h1 {
 
 .units .active {
   color: rgb(71, 66, 106);
+  cursor: default;
 }
 
 .units .active:hover {
@@ -45,10 +49,13 @@ li:first-letter {
 }
 
 .weather-app-border {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.weather-app {
   border: 1px solid;
   padding: 15px;
-  margin: 20px auto;
-  max-width: 600px;
   border-radius: 10px;
   background: radial-gradient(
     circle at 10% 20%,

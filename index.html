@@ -25,57 +25,59 @@
     <div id="app">
       <div class="container">
         <div class="weather-app-border">
-          <form id="search-form">
-            <input
-              type="search"
-              placeholder="Search for a city"
-              autocomplete="off"
-              autofocus="on"
-              id="search-city-input"
-            />
-            <input type="submit" value="Search" id="search" />
-          </form>
+          <div class="weather-app">
+            <form id="search-form">
+              <input
+                type="search"
+                placeholder="Search for a city"
+                autocomplete="off"
+                autofocus="on"
+                id="search-city-input"
+              />
+              <input type="submit" value="Search" id="search" />
+            </form>
 
-          <h1 id="city-output">New York</h1>
+            <h1 id="city-output">New York</h1>
 
-          <ul id="current-date">
-            <li><span id="day"> </span></li>
-            <li><span id="month"> </span></li>
-            <li><span id="time"> </span></li>
-          </ul>
-          <div id="temperature">
-            <strong>14 </strong>
-          </div>
-          <span class="units"
-            ><a href="#" id="celsius-link" class="active">°C</a> |
-            <a href="#" id="fahrenheit-link">°F</a>
-          </span>
-          <div id="weather-display">
-            <div class="row">
-              <div class="col-6">
-                <img
-                  src="http://openweathermap.org/img/wn/04d@2x.png"
-                  alt="Clear"
-                  id="icon"
-                />
+            <ul id="current-date">
+              <li><span id="day"> </span></li>
+              <li><span id="month"> </span></li>
+              <li><span id="time"> </span></li>
+            </ul>
+            <div id="temperature">
+              <strong>14 </strong>
+            </div>
+            <span class="units"
+              ><a href="#" id="celsius-link" class="active">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+            <div id="weather-display">
+              <div class="row">
+                <div class="col-6">
+                  <img
+                    src="http://openweathermap.org/img/wn/04d@2x.png"
+                    alt="Clear"
+                    id="icon"
+                  />
+                </div>
               </div>
             </div>
-          </div>
 
-          <ul id="current-weather">
-            <li><span id="description">Clear</span></li>
-            <li>Wind: <span id="wind"> </span>km/h</li>
-            <li>Humidity: <span id="humidity"></span>%</li>
-          </ul>
+            <ul id="current-weather">
+              <li><span id="description">Clear</span></li>
+              <li>Wind: <span id="wind"> </span>km/h</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+            </ul>
+          </div>
         </div>
+        <small
+          ><a
+            href="https://github.com/atashijan/My-weather-app.git"
+            target="_blank"
+            >Open-source code</a
+          >, by Annalysia Tashijan</small
+        >
       </div>
-      <small
-        ><a
-          href="https://github.com/atashijan/My-weather-app.git"
-          target="_blank"
-          >Open-source code</a
-        >, by Annalysia Tashijan</small
-      >
     </div>
 
     <script src="app.js"></script>
