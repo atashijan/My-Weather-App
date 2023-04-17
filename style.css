@@ -14,19 +14,22 @@ h1 {
   font-size: 50px;
 }
 
-h2 {
+#temperature {
   text-align: center;
+
   color: rgb(71, 66, 106);
-  font-size: 45px;
-  font-weight: 400;
-  margin-left: -34px;
+  font-size: 48px;
+  font-weight: bolder;
+  margin: auto;
+  margin-left: -97px;
   margin-top: 15px;
 }
 .units {
   font-size: 15px;
   font-weight: 300;
   position: relative;
-  bottom: 20px;
+  left: 225px;
+  top: -62px;
 }
 
 li:first-letter {
@@ -51,9 +54,9 @@ li:first-letter {
   color: rgb(107, 104, 126);
   list-style: none;
   position: relative;
-  top: -100px;
+  top: -115px;
   margin: 20px auto;
-  left: 75px;
+  left: 70px;
   font-weight: 200;
 }
 
@@ -69,10 +72,13 @@ li:first-letter {
 
 #icon {
   position: relative;
-  top: -60px;
+
+  top: -65px;
   left: 250px;
+  right: 20px;
   margin: auto;
 }
+
 #description {
   font-weight: 400;
 
