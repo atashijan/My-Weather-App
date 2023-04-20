@@ -1,7 +1,4 @@
 body {
-  font-family: sans-serif;
-}
-body {
   font-family: "Roboto Mono", monospace;
   margin-top: 45px;
 }
@@ -14,17 +11,13 @@ h1 {
   font-size: 54px;
 }
 
-small {
-}
-
 #temperature {
   text-align: center;
-
   color: rgb(58, 60, 128);
   font-size: 48px;
   font-weight: 400;
-  margin: auto;
-  margin-left: -97px;
+
+  margin-left: -150px;
   margin-top: 15px;
 }
 .units {
@@ -32,6 +25,7 @@ small {
   font-weight: 350;
   position: relative;
   left: 225px;
+  right: 29px;
   top: -62px;
 }
 
@@ -49,7 +43,7 @@ li:first-letter {
 }
 
 .weather-app-border {
-  max-width: 600px;
+  max-width: 650px;
   margin: 20px auto;
 }
 
@@ -69,8 +63,8 @@ li:first-letter {
   color: rgb(43, 48, 145);
   list-style: none;
   position: relative;
-  top: -115px;
-  margin: 20px auto;
+  top: -55px;
+  margin: 0px auto;
   left: 70px;
   font-weight: 200;
 }
@@ -87,8 +81,8 @@ li:first-letter {
 
 #icon {
   position: relative;
-
-  top: -65px;
+  top: -66px;
+  bottom: 43px;
   left: 250px;
   right: 20px;
   margin: auto;
@@ -96,7 +90,25 @@ li:first-letter {
 
 #description {
   font-weight: 280;
-
+  margin-bottom: 0px auto;
   font-size: 18px;
   color: rgb(43, 48, 145);
+}
+
+.weather-forecast {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: auto;
+}
+
+.weather-forecast-day {
+  font-size: 15px;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperatures-max {
+  font-weight: bold;
 }
