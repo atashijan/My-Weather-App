@@ -7,26 +7,25 @@ h1 {
   text-align: left;
   margin: 25px 60px 0px;
   color: rgb(51, 53, 125);
-  font-weight: 900;
+  font-weight: 800;
   font-size: 54px;
 }
 
 #temperature {
   text-align: center;
   color: rgb(58, 60, 128);
-  font-size: 48px;
-  font-weight: 400;
-
+  font-size: 62px;
+  font-weight: 375;
   margin-left: -150px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .units {
-  font-size: 15px;
-  font-weight: 350;
+  font-size: 18px;
+  font-weight: 390;
   position: relative;
   left: 225px;
   right: 29px;
-  top: -62px;
+  top: -77px;
 }
 
 .units .active {
@@ -66,7 +65,7 @@ li:first-letter {
   top: -55px;
   margin: 0px auto;
   left: 70px;
-  font-weight: 200;
+  font-weight: 275;
 }
 
 #current-date {
@@ -89,7 +88,7 @@ li:first-letter {
 }
 
 #description {
-  font-weight: 280;
+  font-weight: 325;
   margin-bottom: 0px auto;
   font-size: 18px;
   color: rgb(43, 48, 145);
@@ -104,13 +103,14 @@ li:first-letter {
 
 .weather-forecast-day {
   font-size: 15px;
-  
+  opacity: 0.8;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: rgb(43, 48, 145);
 }
 
-.weather-forecast-temperatures-max {
-  font-weight: bold;
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
