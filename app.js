@@ -55,8 +55,7 @@ function displayForecast() {
     forecastHTML =
       forecastHTML +
       `
-    
-       <div class="col-2">
+        <div class="col-2">
                 <div class="weather-forecast-day">${day}</div>
                 <img
                   src="http://openweathermap.org/img/wn/04d@2x.png"
@@ -68,10 +67,10 @@ function displayForecast() {
                   <span class="weather-forecast-temperature-min">12°</span>
                 </div>
               </div>
-      
-  `;
+              `;
   });
   forecastHTML = forecastHTML + `</div>`;
+
   forecastElement.innerHTML = forecastHTML;
 }
 
@@ -133,4 +132,5 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
+displayForecast();
 search("New York");
