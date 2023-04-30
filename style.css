@@ -24,17 +24,8 @@ h1 {
   font-weight: 390;
   position: relative;
   left: 225px;
-  right: 29px;
+  right: -50px;
   top: -77px;
-}
-
-.units .active {
-  color: rgb(71, 66, 106);
-  cursor: default;
-}
-
-.units .active:hover {
-  text-decoration: none;
 }
 
 li:first-letter {
@@ -70,7 +61,7 @@ li:first-letter {
 
 #current-date {
   color: rgb(125, 163, 217);
-  font-size: 12px;
+  font-size: 14px;
   list-style: none;
   float: right;
   position: relative;
