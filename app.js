@@ -36,7 +36,7 @@ currentDay.innerHTML = `${day}`;
 currentMonth.innerHTML = `${thisMonth} ${date}`;
 
 let currentTime = document.querySelector("#time");
-let hours = now.getHours() % 12 || 12;
+let hours = now.getHours();
 if (hours < 10) {
   hours = `0${hours}`;
 }
